@@ -1,63 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-      .Ctext {
-        text-align: center;
-      }
-      * {
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      /* Style the top navigation bar */
-      .topnav {
-        overflow: hidden;
-        background-color: #333;
-      }
-
-      /* Style the topnav links */
-      .topnav a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      /* Change color on hover */
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-
-      /* Style the content */
-      .content {
-        background-color: #ddd;
-        padding: 1%;
-      }
-
-      /* Style the footer */
-      .footer {
-        text-align: center;
-        background-color: #f1f1f1;
-        padding: 1%;
-      }
-    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rally Racing 101</title>
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <header>
     <nav class="topnav">
-      <a class="topnav a" href="gallery.html">Gallery</a>
-      <a class="topnav a" href="Safety.html">Safety</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="Safety.html">Safety</a>
     </nav>
   </header>
   <body>
@@ -75,39 +27,48 @@
         width="100%"
       />
     </main>
+    <article>
+      <div>
+        <h3 class="Ctext">What is Rally Racing</h3>
+        <ul>
+          <li>
+            Rally racing involves drivers and co-drivers competing in timed
+            stages on varied surfaces and terrains.
+          </li>
+          <li>
+            Unlike circuit racing (e.g., Formula 1 or NASCAR) rally courses are
+            point-to-point, and competitors race against the clock rather than
+            head-to-head.
+          </li>
+          <li>
+            Rallies can last a single day or span multiple days, covering
+            hundreds of miles.
+          </li>
+        </ul>
+      </div>
+    </article>
     <div>
-      <h3 class="Ctext">What is Rally Racing</h3>
-      <ul>
-        <li>
-          Rally racing involves drivers and co-drivers competing in timed stages
-          on varied surfaces and terrains.
-        </li>
-        <li>
-          Unlike circuit racing (e.g., Formula 1 or NASCAR) rally courses are
-          point-to-point, and competitors race against the clock rather than
-          head-to-head.
-        </li>
-        <li>
-          Rallies can last a single day or span multiple days, covering hundreds
-          of miles.
-        </li>
-      </ul>
       <h3 class="Ctext">Components of Rally Racing</h3>
-      <h4>The Car</h4>
-      <ul>
-        <li>
-          Rally cars are highly modified production vehicles designed for
-          durability and performance on rough terrain.
-        </li>
-        <li>
-          They feature all-wheel drive (AWD), reinforced suspension, roll cages,
-          and specialized tires for different conditions.
-        </li>
-        <li>
-          Popular rally cars include the Subaru Impreza WRX, Ford Fiesta RS, and
-          Toyota GR Yaris.
-        </li>
-      </ul>
+      <section class="card">
+        <h4>The Car</h4>
+        <ul>
+          <li>
+            Rally cars are highly modified production vehicles designed for
+            durability and performance on rough terrain.
+          </li>
+          <li>
+            They feature all-wheel drive (AWD), reinforced suspension, roll
+            cages, and specialized tires for different conditions.
+          </li>
+          <li>
+            Popular rally cars include the Subaru Impreza WRX, Ford Fiesta RS,
+            and Toyota GR Yaris.
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div>
       <h4>The Crew</h4>
       <ul>
         <li>
@@ -123,6 +84,8 @@
           NASCAR), but there is a service crew that plays a similar role.
         </li>
       </ul>
+    </div>
+    <div>
       <h4>The Stages/Tracks</h4>
       <ul>
         <li>
@@ -137,6 +100,8 @@
           from one spot
         </li>
       </ul>
+    </div>
+    <div>
       <h4>The Rules</h4>
       <ul>
         <li>
@@ -155,7 +120,7 @@
       </ul>
     </div>
     <div>
-      <footer class=footer>
+      <footer class="footer">
         <a href="https://www.americanrallyassociation.org/2025-ara-schedule"
           >2025 Schedule</a
         >

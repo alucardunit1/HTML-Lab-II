@@ -1,0 +1,68 @@
+.Ctext {
+  text-align: center;
+}
+
+body {
+    background-color: #f1f1f1;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  the top navigation bar */
+.topnav {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: flex;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #3333338a;  
+  padding: 2%;
+  
+}
+
+/* Style the footer */
+.footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 1%;
+}
+
+article {
+    border: 2px #ddd solid;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://openpaddock.net/wp-content/uploads/2012/12/RallyAmerica_USAC.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+div {
+    padding-top: 7px;
+    background-color: #33333333;
+}

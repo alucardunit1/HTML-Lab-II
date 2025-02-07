@@ -1,33 +1,26 @@
-# HTML-Lab-II
+Setup
 
-W2 HTML Lab 2
 
-Please create a site with 3 pages (homepage & gallery & about).
-The site should include a navigation <nav> with <a> tags
-at the top of all pages that allows the user to click between the 3
-pages with <a> tags. (You don't need to style the <nav>.)
-For the homepage, include the following tags: <nav>,
 
-<main>, and <footer>. Start with an <h1> with the 
-title of your site. Include a prominent picture near the top. Within the
- <main> section, include include a brief bio for yourself OR a 
-brief paragraph about your hobby. In the footer, add "created at 
-Codex".  At the top, include a <nav> with <a> tags that link
- to your other pages.
-Next, create the gallery.html page.  It should also include  
-<main>, and <footer> elements. At the top have your 
-<nav> tag with links to the other pages. Then, in the <main>
- section, add at least three images. The footer can be the same as the 
-one on the home page. This page should include the same type of 
-navigation links as the homepage, so at the top, include a <nav> 
-with <a> tags that link to your other pages.
-Finally, create the about.html page. This page should include two 
-lists. One will be an ordered list <ol> with a top 5 list related 
-to your hobby OR other things important to you. The other list will be 
-an unordered list <ul>. This list can be about anything you can 
-think of and should contain 5 items. This page should include the same 
-type of navigation links as the homepage, so at the top, include a 
-<nav> with <a> tags that link to your other pages.
+Note: You will not need to restart a new repository. Just continue adding the the previous week-2-lab-2-may-2024 repository. Don't change it's name.
+Requirements
 
+    Three pages (re-use the code you had from LAB 2 last week)
+    Revise your code. Fix the indentation. Make sure you close all elements. Make sure your quotation marks open and close. Make sure you have a ">" for every "<" in your opening tags.
+    
+    Use color, border, margin, and padding properties. Read all about the BOX MODEL here.
+    Use inline CSS
+    Use internal CSS in the HEAD portion of the document.
+    Use an external style sheet such as style.css and import it to the document with a LINK tag.
+    Use CSS selectors to target all elements of a given tag name
+    Use CSS selectors to target a single element with a given class. (For example, .cute-cat-header)
+    Use width and height in CSS for your images instead of HTML attributes.
+    Style your lists with CSS
+    Finally: Open Dev Tools and inspect an element with padding, border, and margin set. See the example below.
+    Bonus: In your script tag, add JavaScript that calculates a mathematical formula using variables and math operators such as (+-*/%).
+    Bonus: Use CSS flex layout. This may be used for your images or a navbar, for example.
+    Bonus: create a navbar using either flex or float properties.
+    Bonus: Add more rows to your table and use CSS improve its appearance.
+    Bonus: Add additional pages such as an image gallery or tabular data.
 
 
