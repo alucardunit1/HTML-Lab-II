@@ -1,6 +1,5 @@
 .Ctext {
   text-align: center;
-  background-color: darkgrey;
 }
 
 body {
@@ -55,11 +54,12 @@ article {
 
 h1 {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 40px;
     margin: 0;
-    padding: 0;
+    padding: 1px;
     background-image: url(https://openpaddock.net/wp-content/uploads/2012/12/RallyAmerica_USAC.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 
