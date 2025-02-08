@@ -1,5 +1,6 @@
 .Ctext {
   text-align: center;
+  background-color: darkgrey;
 }
 
 body {
@@ -65,4 +66,17 @@ h1 {
 div {
     padding-top: 7px;
     background-color: #33333333;
+}
+/* List Style */
+
+li {
+ list-style: square;
+ }
+
+ul {
+  margin: 10px;
+}
+
+ul li:hover {
+background-color: #ddd;
 }
