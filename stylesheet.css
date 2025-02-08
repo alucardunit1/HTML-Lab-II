@@ -74,7 +74,8 @@ li {
  }
 
 ul {
-  margin: 10px;
+  margin: 15px;
+  padding: 5px;
 }
 
 ul li:hover {

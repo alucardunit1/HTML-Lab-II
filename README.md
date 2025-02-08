@@ -8,7 +8,7 @@ Requirements
     Three pages (re-use the code you had from LAB 2 last week)
     Revise your code. Fix the indentation. Make sure you close all elements. Make sure your quotation marks open and close. Make sure you have a ">" for every "<" in your opening tags.
     
-    XUse color, border, margin, and padding properties. Read all about the BOX MODEL here.
+    X Use color, border, margin, and padding properties. Read all about the BOX MODEL here.
     X Use inline CSS
     X Use internal CSS in the HEAD portion of the document.
     X Use an external style sheet such as style.css and import it to the document with a LINK tag.
@@ -22,5 +22,3 @@ Requirements
     X Bonus: create a navbar using either flex or float properties.
     X Bonus: Add more rows to your table and use CSS improve its appearance.
     X Bonus: Add additional pages such as an image gallery or tabular data.
-
-
